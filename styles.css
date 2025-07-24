@@ -1109,225 +1109,11 @@ background: black;
     }
 }
 
-/* Tablet - Medium (600px to 768px) */
-@media (max-width: 768px) {
-    .logoimg {
-        width: 100px;
-        margin-left: 2%;
-    }
-    
-    .nav {
-        width: 95%;
-        gap: 45%;
-        height: 10%;
-    }
-    
-    .navbuttons {
-        width: 25%;
-        height: 70%;
-    }
-    
-    .button1 {
-        font-size: 80%;
-        padding: 8px 15px;
-    }
-    
-    .button2 {
-        font-size: 80%;
-        padding: 8px 15px;
-    }
-    
-    .herotext {
-        font-size: 2.5rem;
-        left: 15%;
-        width: 70%;
-        top: 30%;
-        letter-spacing: -1.5px;
-    }
-    
-    .sidetext {
-        left: 15%;
-        width: 70%;
-        top: 52%;
-        font-size: 1rem;
-    }
-    
-    .sidetext2 {
-        left: 15%;
-        width: 70%;
-        top: 60%;
-        font-size: 0.9rem;
-    }
-    
-    .inputarea {
-        left: 20%;
-        width: 60%;
-        top: 66%;
-        height: 8%;
-    }
-    
-    .emailinput {
-        font-size: 0.85rem;
-        padding: 8px;
-    }
-    
-    .inputbutton {
-        font-size: 1.2rem;
-    }
-    
-    /* Make sections stack vertically */
-    .section2 {
-        flex-direction: column;
-        height: auto;
-        margin-bottom: 10vh;
-    }
-    
-    .section2text {
-        width: 80%;
-        margin-left: 10%;
-        margin-bottom: 5vh;
-        text-align: center;
-    }
-    
-    .section2h1 {
-        font-size: 2rem;
-    }
-    
-    .section2h3 {
-        font-size: 1rem;
-    }
-    
-    .section2imagediv {
-        margin-left: 0;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .section2image {
-        height: 35vh;
-    }
-    
-    .section2video {
-        height: 20vh;
-        margin-left: -40vh;
-        margin-top: 7.5vh;
-    }
-    
-    .section3 {
-        flex-direction: column-reverse;
-        height: auto;
-        margin-bottom: 10vh;
-    }
-    
-    .section3text {
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 5vh;
-        text-align: center;
-    }
-    
-    .section3h1 {
-        font-size: 2rem;
-        margin-top: 0;
-    }
-    
-    .section3h3 {
-        font-size: 1rem;
-        margin-top: 5%;
-    }
-    
-    .section3image {
-        margin-left: 0;
-        height: 35vh;
-        align-self: center;
-    }
-    
-    .posterbox {
-        margin-left: 25%;
-        margin-top: -30%;
-        width: 30vh;
-        height: 8vh;
-    }
-    
-    .posterimg {
-        height: 7vh;
-    }
-    
-    .download-container {
-        margin-left: 80%;
-        margin-top: -15%;
-    }
-    
-    .section4 {
-        flex-direction: column;
-        height: auto;
-        margin-bottom: 10vh;
-    }
-    
-    .section4text {
-        width: 80%;
-        margin-left: 10%;
-        margin-bottom: 5vh;
-        text-align: center;
-    }
-    
-    .section4h1 {
-        font-size: 2rem;
-    }
-    
-    .section4h3 {
-        font-size: 1rem;
-    }
-    
-    .section4imagediv {
-        margin-left: 0;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .section4image {
-        height: 35vh;
-    }
-    
-    .section4video {
-        height: 20vh;
-        width: 35vh;
-        margin-left: -38vh;
-        margin-top: 3vh;
-    }
-    
-    .section5 {
-        flex-direction: column-reverse;
-        height: auto;
-        margin-bottom: 10vh;
-    }
-    
-    .section5text {
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 5vh;
-        text-align: center;
-    }
-    
-    .section5h1 {
-        font-size: 2rem;
-        margin-top: 0;
-    }
-    
-    .section5h3 {
-        font-size: 1rem;
-    }
-    
-    .section5image {
-        margin-left: 0;
-        height: 35vh;
-        align-self: center;
-    }
-}
+
 
 
 /* Mobile - Small (320px to 480px) */
-@media (max-width: 680px) {
+@media (max-width: 780px) {
     .logoimg {
         width: 80px;
     }
@@ -1363,7 +1149,7 @@ background: black;
     }
     
     .herotext {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         left: 5%;
         width: 90%;
         top: 40%;
@@ -1374,14 +1160,15 @@ background: black;
         left: 5%;
         width: 90%;
         top: 48%;
-        font-size: 0.85rem;
+        font-size: 0.95rem;
     }
     
     .sidetext2 {
         left: 5%;
         width: 90%;
         top: 56%;
-        font-size: 0.75rem;
+        font-size: 0.85rem;
+        font-weight: 300;
     }
     
     .inputarea {
@@ -1389,6 +1176,8 @@ background: black;
         width: 80%;
         top: 62%;
         height: 14%;
+        display:flex;
+        flex-direction: column;
     }
     
     .emailinput {
