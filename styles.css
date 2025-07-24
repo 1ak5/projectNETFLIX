@@ -2057,7 +2057,7 @@ background: black;
 }
 
 /* Small Mobile Styles (up to 480px) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
     .section6 {
         padding: 1.5rem 3%;
         gap: 1.5rem;
